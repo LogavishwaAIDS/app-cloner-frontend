@@ -91,4 +91,16 @@ export default function App() {
           style={{
             marginTop: "20px",
             padding: "15px",
-            background: "#f
+            background: "#f3f1ff",
+            borderLeft: "5px solid #6a5acd",
+            borderRadius: "8px",
+            maxWidth: "600px",
+          }}
+        >
+          <h3 style={{ marginBottom: "10px" }}>AI Summary</h3>
+          <p>{summary}</p>
+        </div>
+      )}
+    </div>
+  );
+}
